@@ -1,0 +1,104 @@
+
+
+html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(31, 50%, 83%);
+}
+.card{
+    
+    display: flex;
+    margin: 10% auto;
+    height: 75%;
+    width: 45%;
+    border-radius: 10px;
+}
+.container{
+    width: 50%;
+    height: 100%;
+    background: #fff;
+}
+#image-div{
+    background-image: url("./images/image-product-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#other-div{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.bucket{
+    height: 100%;
+    margin: 6px 18px;
+}
+
+.fraunces {
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-weight: 700;
+}
+.top-bucket p {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+}
+.top-bucket h3{
+    font-size: 28px;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    
+}
+
+.small-container:first-child{
+    display: flex;
+    width: 100%;
+}
+.small-container:first-child p:first-child{
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Fraunces', serif;
+    width: 50%;
+    color: #3d8168;
+}
+.small-container:first-child p:last-child{
+  
+    width: 50%;
+    align-self: center;
+    font-size: 14px;
+    font-family: 'Fraunces', serif;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+
+.small-container button {
+    display: flex;
+    padding: 8px;
+    background-color: #3d8168;
+    width: 100%;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    font-family: 'Fraunces', serif;
+    border-radius: 8px;
+}
+.small-container span {
+    padding: 5px;
+}
