@@ -1,5 +1,3 @@
-
-
 html{
     padding: 0;
     margin: 0;
@@ -12,16 +10,13 @@ body{
     background-color: hsl(31, 50%, 83%);
 }
 .card{
-    
     display: flex;
     margin: 10% auto;
-    height: 75%;
     width: 45%;
     border-radius: 10px;
 }
 .container{
     width: 50%;
-    height: 100%;
     background: #fff;
 }
 #image-div{
@@ -37,15 +32,11 @@ body{
     border-bottom-right-radius: 10px;
 }
 .bucket{
-    height: 100%;
-    margin: 6px 18px;
+    margin: 20px 18px;
 }
 
 .fraunces {
-    font-family: 'Fraunces', serif;
     font-family: 'Montserrat', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     letter-spacing: 7px;
     color: hsl(228, 12%, 48%);
@@ -55,37 +46,37 @@ body{
 .top-bucket p {
     color: hsl(228, 12%, 48%);
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.7;
 }
 .top-bucket h3{
     font-size: 28px;
     font-family: 'Fraunces', serif;
-    font-weight: 700;
-    
+    font-weight: 700;    
 }
-
 .small-container:first-child{
     display: flex;
-    width: 100%;
+    height: 50px;
+    color: #3d8168;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    align-items: center;
 }
 .small-container:first-child p:first-child{
     font-size: 28px;
     font-weight: 700;
     font-family: 'Fraunces', serif;
     width: 50%;
+    margin: 3px;
     color: #3d8168;
 }
 .small-container:first-child p:last-child{
-  
     width: 50%;
-    align-self: center;
-    font-size: 14px;
-    font-family: 'Fraunces', serif;
+    font-size: 12px;
+    font-family: 'monteserrat', 'sans-serif';
     color: hsl(228, 12%, 48%);
     text-decoration: line-through;
 }
-
 .small-container button {
     display: flex;
     padding: 8px;
@@ -102,3 +93,23 @@ body{
 .small-container span {
     padding: 5px;
 }
+@media(max-width: 500px){
+    .card{
+        flex-direction: column;
+        width: 90%;
+        height: 100vh;
+        border: 1px solid red;
+        margin: 0px;
+    }
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+    p, h3{
+        margin-top: 10px;
+    }
+    .top-bucket{
+        margin-top: 15px
+        \;
+    }
+ }   
